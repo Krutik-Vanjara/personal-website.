@@ -35,3 +35,5 @@ document.addEventListener('DOMContentLoaded', () => {
     footerYear.textContent = `© ${currentYear} Krutik Vanjara`;
 });
 
+
+
