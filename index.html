@@ -1,91 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Krutik Vanjara's Profile</title>
 </head>
-
 <body>
     <header>
-        <div class="header-content">
-            <img src="profile-image.jpeg" alt="Profile Image" class="profile-img">
-            <h1>Welcome to My Profile</h1>
-            <p>I love exploring technology and innovation.</p>
-            <div class="contact-icons">
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-                    <img src="linkedin-logo.png" alt="LinkedIn" class="social-icon">
-                </a>
-                <a href="https://www.instagram.com/yourprofile" target="_blank">
-                    <img src="instagram-logo.png" alt="Instagram" class="social-icon">
-                </a>
-                <a href="mailto:your-email@gmail.com" target="_blank">
-                    <img src="gmail-logo.png" alt="Gmail" class="social-icon">
-                </a>
-                <a href="mailto:your-email@outlook.com" target="_blank">
-                    <img src="outlook-logo.png" alt="Outlook" class="social-icon">
-                </a>
-                <a href="https://github.com/yourgithubusername" target="_blank">
-                    <img src="github-logo.png" alt="GitHub" class="social-icon">
-                </a>
-            </div>
+        <img src="profile-image.jpeg" alt="Profile Image" class="profile-img">
+        <h1>Welcome to My Profile</h1>
+        <p>I love exploring technology and innovation.</p>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <img src="linkedin-logo.png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="mailto:your-email@gmail.com" target="_blank">
+                <img src="gmail-logo.png" alt="Gmail" class="social-icon">
+            </a>
+            <a href="mailto:your-email@outlook.com" target="_blank">
+                <img src="outlook-logo.png" alt="Outlook" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">
+                <img src="instagram-logo.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://github.com/yourgithubusername" target="_blank">
+                <img src="github-logo.png" alt="GitHub" class="social-icon">
+            </a>
         </div>
     </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#academic-background">Academic Background</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#pet-projects">Pet Projects</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+        </ul>
+    </nav>
 
-    <!-- Academic Background Section -->
-    <section class="academic-background">
-        <h2>Academic Background</h2>
-        <div class="entry">
-            <h3>Master of Science in Physics</h3>
-            <p>St. Xavier’s College Ahmedabad | July 2021 - May 2023</p>
-        </div>
-        <div class="entry">
-            <h3>Bachelor of Science in Applied Physics</h3>
-            <p>Uka Tarsadia University Bardoli, Surat | July 2018 - May 2021</p>
-        </div>
-        <!-- More entries can be added here -->
-    </section>
+    <main>
+        <section id="academic-background">
+            <h2>Academic Background</h2>
+            <div class="entry">
+                <h3>Master of Science in Physics</h3>
+                <p>St. Xavier’s College Ahmedabad | July 2021 - May 2023</p>
+            </div>
+            <div class="entry">
+                <h3>Bachelor of Science in Applied Physics</h3>
+                <p>Uka Tarsadia University Bardoli, Surat | July 2018 - May 2021</p>
+            </div>
+        </section>
 
-    <!-- Projects Section -->
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project-entry">
-            <h3>Mapping and Visualization of Magnetic Fields</h3>
-            <p>Developed an IoT project using Arduino and Hall Effect Sensor. <br> 
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-entry">
+                <h3>Mapping and Visualization of Magnetic Fields</h3>
+                <p>Developed an IoT project using Arduino and Hall Effect Sensor.<br>
                 <strong>Duration:</strong> January 2023</p>
-        </div>
-        <!-- More projects can be added here -->
-    </section>
+            </div>
+        </section>
 
-    <!-- Pet Projects Section -->
-    <section class="pet-projects">
-        <h2>Pet Projects</h2>
-        <div class="pet-project-entry">
-            <h3>My First IoT Project</h3>
-            <p>A description of my first IoT project. <br> 
+        <section id="pet-projects">
+            <h2>Pet Projects</h2>
+            <div class="pet-project-entry">
+                <h3>My First IoT Project</h3>
+                <p>A description of my first IoT project.<br>
                 <strong>Duration:</strong> Ongoing</p>
-        </div>
-        <!-- More pet projects can be added here -->
-    </section>
+            </div>
+        </section>
 
-    <!-- Download Section -->
-    <section class="downloads">
-        <h2>Downloads</h2>
-        <div class="download-entry">
-            <a href="resume.pdf" download>
-                <img src="download-logo.png" alt="Download Resume" class="social-icon">
-                Download Resume
-            </a>
-        </div>
-        <div class="download-entry">
-            <a href="cover-letter.pdf" download>
-                <img src="download-logo.png" alt="Download Cover Letter" class="social-icon">
-                Download Cover Letter
-            </a>
-        </div>
-    </section>
+        <section id="downloads">
+            <h2>Downloads</h2>
+            <p>
+                <a href="path/to/resume.pdf" target="_blank">
+                    <img src="download-logo.png" alt="Download Resume" class="download-icon"> Resume
+                </a>
+                <a href="path/to/cover-letter.pdf" target="_blank">
+                    <img src="download-logo.png" alt="Download Cover Letter" class="download-icon"> Cover Letter
+                </a>
+            </p>
+        </section>
+    </main>
 
     <footer>
         <p>everything is connected</p>
@@ -93,8 +89,8 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
+
 
 
 
