@@ -34,3 +34,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentYear = new Date().getFullYear();
     footerYear.textContent = `© ${currentYear} Krutik Vanjara`;
 });
+
