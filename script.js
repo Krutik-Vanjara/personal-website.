@@ -23,16 +23,16 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         const header = document.querySelector('header');
         if (window.scrollY > 50) {
-            header.style.backgroundColor = '#0056b3'; // Darker blue
+            header.style.backgroundColor = '#000'; // Black color
         } else {
-            header.style.backgroundColor = '#007bff'; // Original blue
+            header.style.backgroundColor = 'transparent'; // Clear background
         }
     });
 
     // Display current year in the footer
-    const footerYear = document.querySelector('footer p');
-    const currentYear = new Date().getFullYear();
-    footerYear.textContent = `© ${currentYear} Krutik Vanjara`;
+    const footerYear = document.createElement('p');
+    footerYear.textContent = `© ${new Date().getFullYear()} Krutik Vanjara`;
+    document.querySelector('footer').appendChild(footerYear);
 });
 
 
