@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         const header = document.querySelector('header');
         if (window.scrollY > 50) {
-            header.style.backgroundColor = '#000'; // Change to black when scrolled
+            header.style.backgroundColor = '#000'; // Black color
         } else {
             header.style.backgroundColor = 'transparent'; // Clear background
         }
@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     footerYear.textContent = `© ${new Date().getFullYear()} Krutik Vanjara`;
     document.querySelector('footer').appendChild(footerYear);
 });
+
 
 
 
