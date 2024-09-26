@@ -36,5 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+    // Display current year in the footer
+    const footerYear = document.createElement('p');
+    footerYear.textContent = `© ${new Date().getFullYear()} Krutik Vanjara`;
+    document.querySelector('footer').appendChild(footerYear);
+});
+
+
 
 
