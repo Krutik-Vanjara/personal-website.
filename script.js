@@ -24,9 +24,32 @@ document.addEventListener('DOMContentLoaded', () => {
         const header = document.querySelector('header');
         if (window.scrollY > 50) {
             header.style.backgroundColor = '#000'; // Black color
+            header.style.transition = 'background-color 0.3s ease-in-out'; // Smooth transition for background color
         } else {
             header.style.backgroundColor = 'transparent'; // Clear background
         }
+    });
+
+    // Smooth fade-in effect for sections
+    const sections = document.querySelectorAll('section');
+    const fadeInOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -100px 0px"
+    };
+
+    const fadeInOnScroll = new IntersectionObserver((entries, fadeInOnScroll) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+                return;
+            } else {
+                entry.target.classList.add('fade-in');
+                fadeInOnScroll.unobserve(entry.target);
+            }
+        });
+    }, fadeInOptions);
+
+    sections.forEach(section => {
+        fadeInOnScroll.observe(section);
     });
 
     // Display current year in the footer
@@ -34,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     footerYear.textContent = `© ${new Date().getFullYear()} Krutik Vanjara`;
     document.querySelector('footer').appendChild(footerYear);
 });
+
 
 
 
