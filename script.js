@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Smooth scroll for navigation links
     const links = document.querySelectorAll('nav ul li a');
     links.forEach(link => {
-        link.addEventListener('click', function (e) {
+        link.addEventListener('click', function(e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
             const targetElement = document.querySelector(targetId);
@@ -23,31 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         const header = document.querySelector('header');
         if (window.scrollY > 50) {
-            header.style.backgroundColor = '#000'; // Black color
+            header.style.backgroundColor = 'white';
         } else {
-            header.style.backgroundColor = 'transparent'; // Clear background
+            header.style.backgroundColor = 'transparent';
         }
     });
 
     // Display current year in the footer
-    const footerYear = document.createElement('p');
-    footerYear.textContent = `© ${new Date().getFullYear()} Krutik Vanjara`;
-    document.querySelector('footer').appendChild(footerYear);
-
-    // Fade-in effect for sections
-    const sections = document.querySelectorAll('section');
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('fade-in');
-            }
-        });
-    });
-
-    sections.forEach(section => {
-        observer.observe(section);
-    });
+    const footerYear = document.querySelector('footer p');
+    const currentYear = new Date().getFullYear();
+    footerYear.textContent += ` © ${currentYear} Krutik Vanjara`;
 });
+
 
 
 
