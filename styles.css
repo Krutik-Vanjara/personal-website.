@@ -26,6 +26,7 @@ header {
     width: 30px; /* Adjust size as needed */
     margin: 0 10px;
 }
+
 nav {
     background: black;
     color: white;
@@ -58,7 +59,6 @@ nav ul li a:hover {
     color: black;
     border-radius: 5px;
 }
-
 
 main {
     padding: 20px;
