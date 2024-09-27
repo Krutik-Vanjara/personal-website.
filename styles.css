@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #f4f4f4; /* Light background */
     color: black;
 }
 
@@ -13,18 +13,38 @@ header {
     border-bottom: 1px solid black;
 }
 
-.profile-img {
+.ppic {
     width: 100px; /* Adjust size as needed */
     border-radius: 50%; /* Make the image circular */
 }
 
-.contact-icons {
+#dhead {
+    background: white; /* Header background */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ddesc h1 {
+    margin: 10px 0;
+}
+
+#ddesc h2 {
+    margin: 10px 0;
+    font-weight: normal; /* Makes it less prominent */
+}
+
+#dico {
     margin-top: 10px;
 }
 
-.social-icon {
+.iico {
     width: 30px; /* Adjust size as needed */
     margin: 0 10px;
+    transition: transform 0.3s; /* Adding transition for hover effect */
+}
+
+.iico:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
 nav {
@@ -67,7 +87,7 @@ main {
 section {
     margin: 20px 0;
     padding: 20px;
-    background: #f4f4f4;
+    background: #fff; /* Section background */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -88,7 +108,9 @@ footer {
     padding: 10px 0;
     background: black;
     color: white;
+    position: relative;
 }
+
 
 
 
