@@ -144,3 +144,68 @@ This storyboard aims to inspire and inform viewers about the potential of a sust
 
 Feel free to contribute to this project by suggesting improvements or additional scenes. Your input can help enhance the narrative and visual impact of the storyboard.
 
+# VR Presentation Script: "Skies of Tomorrow: France's Sustainable Aviation Revolution"
+
+This script is designed for a VR presentation that immerses viewers in the future of sustainable aviation in France. It highlights the achievements and innovations that have transformed the aviation industry by the year 2040.
+
+## Opening Scene: A Futuristic Airport Lobby
+
+**Narrator (Voiceover):**
+Welcome to the year 2040. You are standing in one of France's most advanced airports, a beacon of sustainability and innovation.
+
+## Scene Transition: Exterior View of the Airport
+
+**Narrator (Voiceover):**
+This is not the aviation industry you once knew. Today, every flight that takes off from this airport is powered by Sustainable Aviation Fuel, made from 100% recycled $\mathrm{CO}_{2}$.
+
+## Scene: Close-up of a Plane
+
+**Narrator (Voiceover):**
+Observe the aircraft before you. Each plane is a testament to France's commitment to a greener future. The fuel powering these planes is derived from captured $\mathrm{CO}_{2}$, transforming a once harmful emission into a source of clean energy.
+
+## Scene Transition: Inside a High-Speed Train
+
+**Narrator (Voiceover):**
+But the revolution doesn't stop at our airports. For short-haul travel, high-speed trains now dominate the landscape. With a 90% shift to rail, France has significantly reduced its reliance on flights for short distances.
+
+## Scene: Passengers Enjoying the Train Ride
+
+**Narrator (Voiceover):**
+Passengers enjoy a comfortable and efficient journey, knowing they are part of a sustainable future. The trains are not just a means of transport; they are a symbol of progress.
+
+## Scene Transition: Direct Air Capture (DAC) Facility
+
+**Narrator (Voiceover):**
+At the heart of this transformation are our Direct Air Capture facilities. Integrated with nuclear plants, these structures work tirelessly to capture $\mathrm{CO}_{2}$ from the atmosphere, ensuring a continuous supply for Sustainable Aviation Fuel production.
+
+## Scene: Scientists Monitoring DAC Process
+
+**Narrator (Voiceover):**
+Scientists and engineers monitor the process, ensuring that every molecule of $\mathrm{CO}_{2}$ is utilized effectively. This is the future of clean energy infrastructure.
+
+## Scene Transition: Graph Showing Emission Reduction
+
+**Narrator (Voiceover):**
+The results speak for themselves. From 2025 to 2040, aviation emissions have been reduced by a staggering 92%. This achievement is a testament to the collective efforts of policymakers, industry leaders, and citizens alike.
+
+## Scene: Celebratory Gathering
+
+**Narrator (Voiceover):**
+Today, we celebrate not just the success of our initiatives but the promise of a brighter, cleaner future. A future where the skies are clear, and the air is pure.
+
+## Scene Transition: Serene Sky with Fewer Contrails
+
+**Narrator (Voiceover):**
+Look up at the sky. See the difference? Fewer contrails, less pollution. This is the legacy we leave for future generations. A legacy of sustainability, innovation, and hope.
+
+## Closing Scene: Futuristic Cityscape
+
+**Narrator (Voiceover):**
+France's journey to decarbonized aviation is a story of vision, determination, and unity. It is a story of what we can achieve when we come together for a common cause. Welcome to the future of aviation. Welcome to the skies of tomorrow.
+
+## End of Presentation
+
+---
+
+This script provides a narrative for a VR presentation that showcases the future of sustainable aviation in France. It is designed to be both informative and engaging, highlighting the achievements and innovations that have transformed the industry.
+
