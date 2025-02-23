@@ -96,4 +96,5 @@
 
 France’s dual focus on **CO₂ recycling** and **modal shift** creates a blueprint for systemic decarbonization. By aligning **industrial policy** with **behavioral nudges**, the nation can transform aviation from a **climate liability** to a **circular economy showcase**.
 
+- ![Hack1.png](poster )
 
