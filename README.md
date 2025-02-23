@@ -99,6 +99,6 @@ France’s dual focus on **CO₂ recycling** and **modal shift** creates a bluep
  ![Alt text](Decarbonized.png)
  
 ## Strategy Poster
- ![Alt text](Hack1 (1).png)
+ ![Alt text](poster.png)
 
 
